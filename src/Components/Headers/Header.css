@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-bottom:1px solid whitesmoke ;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+
+}
+.header__left{
+    flex: 0.4;
+    
+}
+.header__left h1{
+    font-family: 'poppin', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+.header__left h1 span{
+    color: orangered;
+}
+.header__right{
+    display: flex;
+    flex: 0.6;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__right a h4{
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    font-family: 'Crimson  Text',serif;
+    letter-spacing: 1px;
+}
+.header__right a h4:hover{
+      transform: scale(1.05); 
+     background-color: orangered; 
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding:5px 20px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Crimson Text',serif;
+}
+.header__rightbtn{
+    background-color: orangered;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}

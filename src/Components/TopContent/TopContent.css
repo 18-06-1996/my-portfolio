@@ -1,0 +1,59 @@
+.top-content{
+    color:white;
+    position: relative;
+   
+}
+.top-content__container{
+    position: relative;
+    top: 280px;
+    left:800px;
+}
+.top-content__container p{
+letter-spacing: 1px;
+padding-top: 10px;
+font-size: 20px;
+text-align: left;
+padding-left: 3px;
+}
+.top-content__container h1{
+    font-size: 50px;
+    font-family: "poppin",sans-serif;
+}
+.top-content__container a button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 3px;
+}
+.top-content__downloadbtn{
+    color: white;
+    background-color: orangered;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: "poppin" sans-serif;
+}
+.top-content__downloadbtn:hover{
+    color:  orangered;
+    background-color: white;
+    font-weight: 600;
+}
+.top-content__workbtn{
+color: white;
+border: 1px solid white !important;
+background-color: black;
+font-size: 14px;
+padding: 10px 20px;
+font-family: "poppin",sans-serif;
+font-weight: 300;
+cursor: pointer;
+}
+.top-content__workbtn:hover{
+    color:black;
+    background-color: white;
+    font-weight: 600;
+}
