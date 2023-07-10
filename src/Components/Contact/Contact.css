@@ -33,6 +33,6 @@ margin: 200px 0 100px 0;
  .contact_icons{
    margin-left: 30px;
  }
- .contact_icons a button .css-1yxmbwk{
+ .contact_icons>a>button>svg>.css-vubbuv{
  color: white !important;
  }
